@@ -8,7 +8,7 @@
             "email": "asrawat.contact@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "5.4.x-dev"
     },
