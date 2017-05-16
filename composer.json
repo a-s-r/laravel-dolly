@@ -1,6 +1,8 @@
 {
     "name": "a-s-r/laravel-dolly",
+    "type":"library",
     "description": "This is nature for laravel",
+    "keywords": ["laravel", "forms"],
     "license": "MIT",
     "authors": [
         {
