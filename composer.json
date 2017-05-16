@@ -1,0 +1,20 @@
+{
+    "name": "asr/dolly",
+    "description": "This is nature for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ajay Singh Rawat",
+            "email": "asrawat.contact@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.4.x-dev"
+    },
+    "autoload":{
+        "psr-4":{
+            "Asr\\Dolly\\":"src/"
+        }
+    }
+}
