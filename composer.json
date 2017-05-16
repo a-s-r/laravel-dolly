@@ -2,7 +2,7 @@
     "name": "a-s-r/laravel-dolly",
     "description": "this is a laravel package",
     "keywords": ["laravel", "forms"],
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/support": "5.4-dev"
+        "illuminate/support": "5.4.x-dev"
     },
     "autoload":{
         "psr-4":{
