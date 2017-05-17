@@ -23,7 +23,7 @@ class DollyServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //$this->app->make('Asr\Dolly\DollyFormController');
-        //$this->loadViewsFrom(__DIR__.'/views', 'dollyForm');
+        $this->app->make('Asr\Dolly\DollyFormController');
+        $this->loadViewsFrom(__DIR__.'/views', 'dollyForm');
     }
 }
