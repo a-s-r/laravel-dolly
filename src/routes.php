@@ -5,7 +5,7 @@
 */
 
 Route::get('dolly-form', function(){
-    return "This is a form page";
+    return "This is a dolly form page";
 });
 
 
