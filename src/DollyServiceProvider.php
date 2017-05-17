@@ -25,5 +25,10 @@ class DollyServiceProvider extends ServiceProvider
     {
         $this->app->make('Asr\Dolly\DollyFormController');
         $this->loadViewsFrom(__DIR__.'/views', 'dollyForm');
+
+        // Publish your migrations
+        $this->publishes([
+            __DIR__.'/database/migrations/' => database_path('/migrations')
+        ], 'migrations');
     }
 }
