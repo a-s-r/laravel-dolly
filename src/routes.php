@@ -4,10 +4,10 @@
     Asr/Df routes here
 */
 
-Route::get('form', function(){
+Route::get('dolly-form', function(){
     return "This is a form page";
 });
 
 
-Route::get('add/{a}/{b}', 'Asr\Dolly\DollyFormController@add');
-Route::get('subtract/{a}/{b}', 'Asr\Dolly\DollyFormController@subtract');
+Route::get('dolly-add/{a}/{b}', 'Asr\Dolly\DollyFormController@add');
+Route::get('dolly-subtract/{a}/{b}', 'Asr\Dolly\DollyFormController@subtract');
